@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+	box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #F5F5F5;
+}
+.logo{
+    display: block;
+    margin:auto;
+    width: 80px;	
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.social ul{
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+	align-items: center;
+	padding: 0px 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+.social ul li{
+    padding: 5px;
+    
+}
+
+ img.ggl_svg{
+    width: 20px;
+    line-height: normal;
+ }
+
+.social ul li button{ 
+    position: relative;
+    cursor: pointer;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 350px;
+   
+}
+
+button img{
+
+    position: absolute;
+    width: 50px;
+    left: 80px;
+}
+
+button i{
+    position: absolute;
+    font-size: 18px;
+    left: 80px;
+}
+    
+
+
+button.ggl{
+    background-color: white;
+}
+button.ggl:hover{
+    background-color: rgba(255, 255, 255, 0.623);
+} 
+
+button.fb{
+    background-color: rgba(23, 23, 119, 0.808);
+    color: white;
+} 
+button.fb:hover{
+    background-color: rgba(12, 12, 59, 0.808);
+} 
+
+button.gh {
+    background-color: rgba(0, 0, 0, 0.74);
+    color: white;
+} 
+button.gh:hover{
+    background-color: rgba(0, 0, 0, 0.89);
+} 
+
+.box{
+	justify-content: center;
+	align-items: center;
+	padding: 0px 50px;
+    border-radius: 7px;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.05),0 20px 48px rgba(0,0,0,0.05),0 1px 4px rgba(0,0,0,0.1);
+	border: 1px solid #f0f0;
+	width: 350px;
+	height: 300px;
+	background: #fff;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.box h3{
+	text-align: justify;
+	color: black;
+    padding-top: 15px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+
+.box input{
+	width: 250px; 
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+	height: 30px;
+    padding: 20px;
+	background-color: white;
+	border: 1px solid #ccc;
+    font-weight: 100;
+}
+
+.box_info {
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+.box_info span{
+    cursor: pointer;
+    color: rgb(51, 51, 192);
+    
+}
+
+
+.link{
+    display: flex;
+}
+
+.link span{
+    padding-top: 35px;
+    padding-left: 40px;
+    color: rgb(51, 51, 192);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+
+.box input[type="button"]{
+	width: 250px;
+	height: 50px;
+    cursor: pointer;
+	margin-top: 15px;
+	border: 1px solid white;
+	background-color: rgba(67, 105, 228, 0.822);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0%;
+	
+}
+
+.box input[type="button"]:hover{
+	background-color: rgba(16, 34, 94, 0.822);
+}
